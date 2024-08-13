@@ -1,6 +1,6 @@
 import { makeAutoObservable } from "mobx";
 import { CSSProperties } from "react";
-
+// https://claude.ai/chat/b2ea18e1-d9a5-4ffb-85c5-3879a3295655
 class CssManager {
   private properties: Map<keyof CSSStyleDeclaration, string>;
 
